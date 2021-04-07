@@ -27,7 +27,7 @@ pub type ChainSpec = sc_service::GenericChainSpec<GenesisConfig>;
 
 const PROPERTIES: &str = r#"
 {
-	"ss58format": 7,
+	"ss58format": 5,
 	"tokenDecimals": 15,
 	"tokenSymbol": "STND"
 }	
