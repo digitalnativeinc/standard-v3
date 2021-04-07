@@ -34,7 +34,7 @@ const PROPERTIES: &str = r#"
 "#;
 
 
-const PROTOCOL_ID: &str = "stnd";
+const PROTOCOL_ID: &str = "opportunity";
 
 /// Generate a crypto pair from seed.
 pub fn get_from_seed<TPublic: Public>(seed: &str) -> <TPublic::Pair as Pair>::Public {
